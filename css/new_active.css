@@ -1,0 +1,262 @@
+@charset "utf-8";
+body {
+    background: url(../images/bg.jpg);
+}
+.Christmas {
+    width: 100%;
+    position: relative;
+    /*margin-top: 100px;*/
+}
+.menu_top {
+    position: fixed;
+    top: 88px;
+    left: 50%;
+    margin-left: -350px;
+}
+.lollipop {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.lollipop .lollipop-sp1 {
+    position: absolute;
+    top: 105px;
+    left: 105px;
+}
+.lollipop .lollipop-sp2 {
+    position: absolute;
+    top: -50px;
+    left: 220px;
+}
+.confused a {
+    position: absolute;
+    left: 800px;
+    top: 370px;
+    width: 79px;
+    height: 82px;
+    background: url(../images/03.png);
+    z-index: 300;
+}
+.Christmas-nav {
+    position: relative;
+}
+.arrow {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -88px;
+}
+.Ch_cake {
+    width: 1200px;
+    margin: 0 auto;
+}
+.Ch_cake .cake {
+    width: 100%;
+}
+.name_11 {
+    left: 205px;
+    top: 190px;
+}
+.name_22 {
+    left: 800px;
+    top: 550px;
+}
+.name_33 {
+    left: 205px;
+    top: 1030px;
+}
+.name_44 {
+    left: 800px;
+    top: 1710px;
+}
+.word_1 {
+    width: 330px;
+    position: absolute;
+    color: #b9b9b9;
+    font-size: 12px;
+    font-family: "microsoft YaHei";
+}
+.word_1 p {
+    border-bottom: 1px solid #b9b9b9;
+    padding-bottom: 10px;
+}
+.word_1 input {
+    color: #FFFFFF;
+    background-color: #d8132b;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 3px 28px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+.cake1_a {
+    position: absolute;
+    width: 425px;
+    height: 425px;
+    right: 175px;
+    top: 85px;
+}
+.cake2_a {
+    position: absolute;
+    width: 460px;
+    height: 500px;
+    left: 120px;
+    top: 430px;
+}
+.cake3_a {
+    position: absolute;
+    width: 619px;
+    height: 483px;
+    right: 140px;
+    top: 900px;
+}
+.cake4_a {
+    position: absolute;
+    width: 740px;
+    height: 560px;
+    left: 150px;
+    bottom: 400px;
+}
+.Ch_cake .icon {
+    width: 244px;
+    position: relative;
+    bottom: -50px;
+    left: 50%;
+    margin-left: -122px;
+}
+.Ch_footer {
+    height: 187px;
+    color: #fff;
+    background-color: #3a2015;
+    font-size: 16px;
+    padding-top: 40px;
+    font-family: "microsoft YaHei";
+}
+.Ch_footer p {
+    width: 755px;
+    margin: 0 auto;
+}
+.ch_left, .ch_right {
+    width: 200px;
+    height: 200px;
+    background: url(../images/bg.jpg) no-repeat center center;
+    position: absolute;
+}
+
+
+
+.snow{
+    position: absolute;
+    top: 0px;
+    z-index: 350;
+}
+.tc-cover{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 0.5;
+    z-index: 900;
+    display: none;
+}
+.banner {
+    width: 600px;
+    background-color: #fff;
+    position: fixed;
+    top: -550px;
+    left: 50%;
+    margin-left: -300px;
+    z-index: 1000;
+    box-shadow: 0px 0px 7px #ff3cad;
+    border: 8px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.banner-zf {
+    position: absolute;
+    left: 290px;
+    top: 190px;
+    font: 400 16px/20px "microsoft YaHei";
+    color: #ff3cad;
+}
+.banner-zf h3 {
+    margin-top: 14px;
+    font-size: 18px;
+    color: #a5002f;
+}
+.banner-btn {
+    position: absolute;
+    left: 290px;
+    top: 280px;
+    color: #FFFFFF;
+    background-color: #d86711;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 3px 28px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+.banner li {
+    position: absolute;
+    display: none;
+}
+#j_img {
+    position: absolute;
+    z-index: 1000;
+}
+.li1 { left: -35px; top: -2px;}
+.li2 { left: -15px; top: -5px;}
+.li3 { left: 15px; top: -2px;}
+.li4 { left: 45px; top: 2px;}
+.li5 { left: 75px; top: 5px;}
+.li6 { left: 105px; top: 2px;}
+.li7 { left: 135px; top: -2px;}
+.li8 { left: 165px; top: -5px;}
+.li9 { left: 195px; top: -2px;}
+.li10 {left: 225px; top: 2px;}
+.li11 {left: 255px; top: 5px;}
+.li12 {left: 285px; top: 1px;}
+.li13 {left: 315px; top: -1px;}
+.li14 {left: 345px; top: -3px;}
+.li15 {left: 375px; top: -5px;}
+.li16 {left: 405px; top: -3px; }
+.li17 {left: 435px; top: -1px;}
+.li18 {left: 465px; top: 2px;}
+.li19 {left: 495px; top: 5px;}
+.li20 {left: 525px; top: 2px; }
+.li21 {left: 555px; top: -2px;}
+.li22 {left: 575px; top: -5px;}
+
+.banner_dianji {
+    position: absolute;
+    width: 145px;
+    height: 140px;
+    border-radius: 50%;
+    right: 84px;
+    bottom: 2px;
+    text-align: center;
+    font: 900 40px/140px "microsoft YaHei";
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.banner_tishi {
+    position: absolute;
+    left: 65px;
+    bottom: 25px;
+    background-color: skyblue;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+.banner_tishi h3 {
+    font: 400 16px/18px "microsoft YaHei";
+    color: #d81171;
+}
+.banner_tishi span {
+    color: red;
+    font-weight: 900;
+    margin-bottom: 10px;
+}

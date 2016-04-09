@@ -1,0 +1,357 @@
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.al{
+    text-align: left;
+}
+.ac{
+    text-align: right;
+}
+.hide{
+    display: none;
+}
+/*goods-left部分start*/
+.w {
+    position: relative;
+}
+.pt {
+    padding-top: 50px;
+}
+.goods-left i {
+    font: 400 15px/15px "sim";
+    position: absolute;
+    top: 39px;
+    left: 46px;
+    width: 15px;
+    height: 8px;
+    overflow: hidden;
+    color: #B49773;
+}
+.goods-left i s {
+    position: absolute;
+    top: 1px;
+    left: 0;
+}
+.goods-left ul {
+    float: left;
+}
+.goods-left ul li{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #C6B098;
+    margin: 4px 0;
+}
+.goods-center {
+    width: 480px;
+    float: left;
+    position: relative;
+}
+.goods-center .bigPic {
+    position: absolute;
+    width: 380px;
+    height: 380px;;
+    left: 520px;
+    overflow: hidden;
+    display: none;
+
+}
+.goods-center .mask {
+    width: 160px;
+    height:160px;
+    position: absolute;
+    background: rgba( 45, 200 , 38 , 0.5);
+    display: none;
+}
+.goods-center .posa {
+    padding: 0px;
+    margin: 4px 0 0 8px;
+}
+.posa {
+    position: relative;
+    cursor: pointer;
+    height: 480px;
+}
+.bigPic img{position: absolute;} 
+.goods-center span{
+    display: block;
+    padding: 4px 0 0 8px;
+}
+.goods-center p {
+    line-height: 22px;
+    font-family: 'Microsoft YaHei', '微软雅黑';
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.goods-center-p {
+    width: 400px;
+}
+.goods-right {
+    width: 490px;
+    float: left;
+    margin-left: 35px;
+    width: 560px;
+}
+.goods-right-name {
+    width: 490px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #D6D6D6;
+}
+.goods-right-first {
+    font-size: 25px;
+    padding-right: 10px;
+}
+.goods-right-second {
+    font-size: 14px;
+    font-family: 'Microsoft YaHei','微软雅黑';
+}
+.goods-right-price {
+    height: 80px;
+    color: #b0916a;
+    line-height: 80px;
+    padding-top: 10px;
+}
+.goods-right-price-frist {
+    display: inline-block;
+    font-size: 24px;
+    height: 80px;
+}
+.goods-right-price-second {
+    display: inline-block;
+    font-size: 30px;
+    height: 80px;
+}
+.cake-size li {
+    float: left;
+}
+.cake-size {
+    width: 490px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #767676;
+    font-family: 'Microsoft YaHei', '微软雅黑';
+}
+.cake-size-one {
+    display: inline-block;
+    width: 53px;
+    height: 25px;
+    background-color: #F2F6F7;
+    font-size: 12px;
+    margin-right: 10px;
+
+}
+.cake-size-two {
+    display: inline-block;
+    width: 53px;
+    height: 25px;
+    background-color: #F2F6F7;
+}
+.cake-detail {
+    padding-top: 20px;
+    font-family: 'Microsoft YaHei', '微软雅黑';
+    color: #B6B6B6;
+    font-size: 12px;
+    line-height: 20px;
+}
+.cake-num {
+    float: left;
+    line-height: 26px;
+    display: block;
+    padding-right: 5px;
+    width: 560px;
+    padding-top: 10px;
+    margin-top: 8px;
+}
+.su {
+    border: 0;
+}
+.cake-num .jian,.cake-num .add,.cake-num .su {
+    background: #F3FEFF;
+    font-family: 'Microsoft YaHei','微软雅黑','黑体','SimHei';
+    font-size: 14px;
+    cursor: pointer;
+    width: 35px;
+    height: 25px;
+    display: inline-block;
+    color: #b0916a;
+    line-height: 25px;
+    text-align: center;
+}
+.cake-num .jian,.cake-num .add {
+    font-size: 18px;
+}
+.cake-num span.curr {
+    border: 1px solid #b0916a;
+}
+.buy_btn_box,.buy_btn_now {
+    width: 160px;
+    height: 30px;
+    border-radius: 2px;
+    background: #b0916a;
+    margin: 2px;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.buy_btn_box:hover,.buy_btn_now:hover {
+    background: #B4937E
+}
+.borderBottom {
+    height: 30px;
+    width: 480px;
+    border-bottom: 1px solid #ddd;
+}
+
+.Select_view {
+    padding-top: 20px;
+    height: 40px;
+    text-align: center;
+    line-height: 18px;
+}
+.Select_view .cur {
+    border-bottom:3px solid #7b9196; 
+}
+.Select_view li {
+    height: 45px;
+    float: left;
+    margin-right: 30px;
+    border-bottom: 3px #D9E8EB solid;
+    cursor: pointer;
+}
+.Select_view li span {
+    font-size: 16px;
+
+}
+.view_list {
+    display: block;
+    margin-top: 30px;
+    line-height: 18px;
+    width: 420px;
+}
+.view_list .h {
+    height:22px;
+    display: inline-block;
+    padding-right: 40px;
+    margin-bottom: 10px;
+}
+.view_list img {
+   vertical-align: middle;
+    margin-right: 5px;
+}
+.Basic li {
+    width: 250px;
+    overflow: hidden;
+    float: left;
+    line-height: 35px;
+}
+.Basic dl span { 
+    padding-right:8px;
+}
+.Basic .icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../images/icon.png) no-repeat -243px -65px;
+}
+.Basic .te {
+    margin-left: 20px;
+    color: #b0916a;
+}
+.Basic .col {
+    color: #b0916a;
+}
+/*goods-left部分end*/
+
+.Laissez {
+    border-top: 1px solid #ccc;
+    margin-top: 100px
+}
+.Laissez_Int {
+    margin: 0 auto;
+    position: relative;
+}
+.Laissez_Int_Title {
+    width: 540px;   
+    height: 90px;
+    position: absolute;
+    margin-top: -40px;
+    left: 50%;
+    margin-left: -270px;
+    background: #fff;
+}
+.Laissez_Int_Title_pic {
+    width: 90px;
+    height: 90px;
+    background: url(../images/titie_pic.png) no-repeat;
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+}
+.Laissez_Int_Title_text {
+    line-height: 20px;
+    float: left;
+    width: 400px;
+    margin: 12px 0 0 20px;
+    color: #b0916a;
+    line-height: 19px;
+}
+.bigpic {
+    margin: 100px  400px;
+    display: inline-block;
+}
+.Indis {
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+}
+.Indis_Int {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 16px;
+    
+}
+.Indis_Int_text{
+    font-size: 14px;
+    line-height: 20px;
+}
+.Indis_Item {
+    margin: 0 auto;
+    width: 1188px;
+    text-align: center;
+    line-height: 18px;
+    padding-bottom: 60px;
+} 
+.Indis_Item li {
+    float: left;
+    padding: 10px;
+    width: 216px;
+}
+
+.Indis_Item span {
+    display: block;
+}
+.Indis_Item span.text {
+    font-weight: bold;
+}

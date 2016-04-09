@@ -1,0 +1,238 @@
+body {
+    overflow: hidden;
+}
+.content {
+    width: 6000px;
+    position: absolute;
+    top: 0px;
+    left: -277px;
+    /*left: -4217px;*/
+}
+.background img {
+    float: left;
+}
+.page {
+    position: absolute;
+    width: 1000px;
+    height: 680px;
+}
+.page01 {
+    left: 460px;
+}
+.page01-pic1 {
+    width: 500px;
+    height: 380px;
+    position: absolute;
+    top: 200px;
+    left: 310px;
+    /*background-color: #AA875B;*/
+}
+.page01-pic1-content2 {
+    position: absolute;
+    bottom: 37px;
+    right: 0;
+}
+.word {
+    position: absolute;
+    bottom: 75px;
+    right: -63px;
+}
+.page01-pic2 {
+    width: 280px;
+    height: 260px;
+    position: absolute;
+    right: 0;
+    top: 115px;
+    text-align: center;
+}
+.page01-pic3 {
+    position: absolute;
+    right: 90px;
+    top: 383px;
+}
+.page01-pic4 {
+    position: absolute;
+    top: 0px;
+    left: 360px;
+}
+.page01-pic4 ul {
+    position: relative;
+}
+.page01-pic4 ul li {
+    display: none;
+    position: absolute;
+    top: -82px;
+    left: -14px;
+}
+
+
+.jiantou{
+    display: block;
+    width: 87px;
+    height: 86px;
+    cursor: pointer;
+}
+.page02 {
+    left: 1920px;
+}
+.page02-pic1 {
+    position: absolute;
+    right: 6px;
+    top: 372px;
+}
+.page02-pic2 {
+    position: absolute;
+    left: -145px;
+    top: 366px;
+}
+.page02-pic3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.page02-pic3 ul {
+    position: relative;
+}
+.page02-pic3 ul li {
+    position: absolute;
+    top: 108px;
+    right: 120px;
+}
+
+.page03 {
+    left: 3246px;
+}
+.page03-pic1 {
+    position: absolute;
+    top: 100px;
+    left: 160px;
+}
+.page03-pic2 {
+    position: absolute;
+    top: 255px;
+    left: 344px;
+}
+.page03-pic3 {
+    position: absolute;
+    top: 376px;
+    right: 170px;
+}
+.page03-pic4 {
+    position: absolute;
+    top: 445px;
+    left: -162px;
+}
+.page03-pic5 ul li{
+    position: absolute;
+    top: 0;
+    left: 410px;
+}
+.page04 {
+    left:  4400px;
+}
+.page04-pic1 {
+    width: 372px;
+    height: 294px;
+    position: absolute;
+    top: 120px;
+    left: 412px;
+}
+.page04-pic2 {
+    width: 374px;
+    height: 294px;
+    position: absolute;
+    top: 356px;
+    left: 150px;
+}
+.page04-pic2 img,.page04-pic1 img {
+    width: 100%;
+    display: block;
+}
+.page04-pic3 {
+    position: absolute;
+    bottom: 140px;
+    left: -60px;
+}
+.page04-pic4 {
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    top: 170px;
+    left: 167px;
+}
+.page04-pic4-content2 {
+    margin-top: 5px;
+    height: 40px;
+    border-top: 1px solid #D1D1D1;
+    padding-top: 10px;
+    color: #92A622;
+}
+.page04-pic4-content2-text {
+    width: 100px;
+    height: 40px;
+    display: block;
+    float: left;
+}
+.page04-pic4-content2-text i {
+    font-size: 15px;
+    font-style: normal;
+    float: left;
+}
+.page04-pic4-content2-text span {
+    float: left;
+    padding: 0 2px;
+    font-size: 30px;
+    line-height: 30px;
+}
+.page04-pic4-content2-text em {
+    font-style: normal;
+    line-height: 42px;
+}
+.page04-pic4-content2-kuang {
+    width: 62px;
+    color: #92a622;
+    cursor: pointer;
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+    background: url(../images/fourth_05.png) no-repeat;
+    position: relative;
+}
+.page04-pic4-content2-kuang i {
+    font-style: normal;
+    display: block;
+    width: 38px;
+    text-align: center;
+}
+.page04-pic4-content2-dl1 {
+    width: 60px;
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    border-bottom: none;
+    display: none;
+    position: absolute;
+    top: 20px;
+}
+.page04-pic4-content2-dl1 dt,.page04-pic4-content2-dl2 dt {
+    padding-left: 10px;
+    border-bottom: 1px solid #d1d1d1;
+}
+.page04-pic4-content2-dl1 dt:hover,.page04-pic4-content2-dl2 dt:hover {
+    background-color: #92a622;
+    color: #fff;
+}
+.page04-pic5 {
+    position: absolute;
+    bottom: 62px;
+    right: 195px;
+}
+.page04-pic4-content2-dl2 {
+    width: 60px;
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    border-bottom: none;
+    display: none;
+    position: absolute;
+    bottom: 20px;
+}
+

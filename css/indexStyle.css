@@ -1,0 +1,223 @@
+/* 
+* @Author: xia
+* @Date:   2015-12-19 12:34:17
+* @Last Modified by:   xia
+* @Last Modified time: 2015-12-19 23:42:32
+*/
+
+
+/* header开始 */
+.header {
+	width: 1350px;
+	margin: 0 auto;
+}
+/* header结束 */
+
+/* banner开始 */
+.bannerBox {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.banner01{
+	background: url(../images/banner01.jpg) no-repeat center top;
+	height: 203px;
+}
+.banner02{
+	background: url(../images/banner02.jpg) no-repeat center top;
+	height: 193px;
+}
+.banner03{
+	background: url(../images/banner03.jpg) no-repeat center top;
+	height: 204px;
+}
+.gift {
+	width: 79px;
+	height: 82px;
+	background: url(../images/03.png) no-repeat;
+	position: absolute;
+	top:344px;
+	left:26%;
+	-webkit-animation: tiao1 1s ease 0s infinite alternate; 
+	-moz-animation: tiao1 1s ease 0s infinite alternate;
+} 
+@-webkit-keyframes tiao1{ from{top:336px;}to {top:340px;}}
+.giftText {
+	width: 170px;
+	height: 80px;
+	background: url(../images/12.png) no-repeat;
+	position: absolute;
+	top:250px;
+	left: 22%;
+	-webkit-animation: tiao2 1s ease 0.5s infinite alternate; 
+	-moz-animation: tiao2 1s ease 0.5s infinite alternate;
+} 
+@-webkit-keyframes tiao2{ from{top:250px;}to {top:265px;}}
+
+/* banner结束 */
+
+/* main开始 */
+.mainTop {
+	width: 1136px;
+	height: 60px;
+	margin: 20px auto 16px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+.mainTopInt {
+	width: 290px;
+	margin: 0 auto;
+}
+.mainTopInt span {
+	font-size: 14px;
+	line-height: 26px;
+}
+.mainMiddle {
+	width: 1132px;
+	margin: 0 auto;
+	position: relative;
+}
+.mainMiddleInt {
+	width: 1126px;
+	padding-left: 8px;
+	padding-bottom: 38px;
+}
+.mainMiddlePic {
+	overflow: hidden;
+	position: relative;
+	width: 216px;
+}
+
+.mainMiddlePic_Item_shop {
+	background: url(../images/shop.pngmainMiddlePic_Item) no-repeat;
+	width: 37px;
+	height: 37px;
+	position: absolute;
+	right: 8px;
+	top: 10px;
+}
+.sweet {
+	position: absolute;
+	height: 18px;
+	left: 80px;
+	top: 30px;
+}
+.mainMiddlePic_Item .sweet li {
+	height: 18px;
+	width: 16px;
+	float: left;
+	background: url(../images/sweet.png) no-repeat;
+}
+
+.mainMiddlePic_Item {
+	height: 40px;
+	background: rgba(0 , 0 , 0 , 0.6);
+	position: absolute;
+	width: 200px;
+	padding:8px;
+	bottom: -56px;
+	color: #eee;
+	line-height: 20px;
+}
+.mainMiddlePic_mask {
+	width: 216px;
+	height: 216px;
+	position: absolute;
+	top: 0;
+	background: rgba(0 , 0 , 0 , 0.6);
+}
+.mainMiddlePic_mask i {
+	position: absolute;
+	background: url(../images/saleall.png) no-repeat;
+	width: 45px;
+	height: 60px;
+	left: 50%;
+	top: 50%;
+	margin-top: -30px;
+	margin-left: -23px;
+}
+.mainMiddleInt li {
+	width: 225px;
+	float: left;
+	padding-bottom: 20px;
+}
+.mainMiddleItem {
+	text-align: center;
+	cursor: pointer;
+}
+.newpro {
+	background: url(../images/newpro.png) no-repeat left;
+}
+.gold {
+	background: url(../images/gold.png) no-repeat left;
+}
+.hot {
+	background: url(../images/hot.png) no-repeat left;
+}
+.mainMiddleItem span {
+	display:block;
+}
+.cakeNane {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 21px;
+}
+/* main结束 */
+
+/* bottomItem开始 */
+.bottomItem {
+	width: 100%;
+	background: #F2F6F7;
+	padding-top: 16px
+}
+.bottomItem_Int {
+	width: 1200px;
+	margin: 0 auto;
+}
+.bottomItem_Int li {
+	float: left;
+	padding-bottom: 6px;
+	margin: 8px 14px;
+	border-bottom: 3px solid #ccc;
+}
+.bottomItem_Int li:hover {
+	border-bottom: 3px solid #999;
+}
+
+
+/* bottomItem结束 */
+
+
+/* sideMenu开始 */
+.sideMenu {
+	position: absolute;
+	top:8px;
+	right: -85px;
+	text-align: right;
+	line-height: 18px;
+}
+.sideMenu dd,.sideMenu dt {
+	overflow: hidden;
+	padding: 4px 12px;
+}
+.sideMenu dt {line-height: 24px;}
+.sideMenu dl dt.current {
+	
+	background: url(../images/icon.png) no-repeat -304px -127px;
+}
+.sideMenu dd:hover {
+	background: url(../images/mouseover.png) no-repeat right 8px;
+}
+.sideMenuBottom dd {
+	height: 0;
+}
+/* sideMenu结束 */
+
+/* snow开始 */
+div.snow{
+    position: absolute;
+    top: 0px;
+    
+    }
+/* snow结束 */

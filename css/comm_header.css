@@ -1,0 +1,31 @@
+﻿@charset "utf-8";
+body{margin:0;background:#fff;font-family:'Microsoft YaHei','微软雅黑','黑体',SimHei;font-size:12px;color:#767676;min-width:1280px}
+img{border:none; vertical-align: middle;}
+input{font-family:'Microsoft YaHei','微软雅黑','黑体',SimHei}
+a:active,a:link,a:visited{color:#767676;text-decoration:none}
+a:hover{color:#b0916a;text-decoration:none}
+a.Gold:active,a.Gold:link,a.Gold:visited{color:#ab977e}
+a.Gold:hover{color:#ab977e;text-decoration:underline}
+a.Grey:active,a.Grey:link,a.Grey:visited{color:#8C8C8C}
+a.Grey:hover{color:#ABABAB;text-decoration:underline}
+div,li,samp,span{font-family:'Microsoft YaHei','微软雅黑','黑体',SimHei}
+dd,dl,dt,label,li,ol,p,ul{padding:0;margin:0;list-style:none}
+.clear{padding:0;margin:0;clear:both}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+.disblock {
+	display: block;
+}
+.disinblock {
+	display: inline-block;
+}
